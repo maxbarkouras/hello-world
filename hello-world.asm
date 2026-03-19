@@ -22,6 +22,6 @@ _start:
     syscall
 
 failed:
-    mov rdi, rax
     mov rax, 60
+    mov rdi, -1
     syscall
