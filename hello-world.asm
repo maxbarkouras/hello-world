@@ -2,7 +2,7 @@
 BITS 64
 
 section .data
-    helloWorld db "hello world", 0x0a, 0x00 
+    helloWorld db "hello world", 0x0a 
 
 section .text
 global _start
