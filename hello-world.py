@@ -1,5 +1,4 @@
 # python hello world
-
 def main():
     try:
         print("hello world")
